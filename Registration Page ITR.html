@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="upgrade.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="logo" width="200px" height="50px">
+        <nav class="navbar">
+                <a class="feedback" href="#" style="color: aliceblue;">Feedback</a>
+                <a class="eacess" href="#" style="color: aliceblue;">E-acessibility</a>
+                <a class="contact" href="#" style="color: aliceblue;">Contact us</a>
+                <a class="about" href="#" style="color: aliceblue;">About us</a>
+                <a class="home" href="Home Page 2.html" style="color: aliceblue;">Home</a>
+        </nav>
+    </header>
+    <table class="regtab">
+        <th colspan="3">
+            <h1>New User Registration</h1>
+        </th>
+        <tr>
+            <td>Name</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="name">
+                    <input id="name" type="text" placeholder="Enter name" required>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="age">
+                    <input id="age" type="text" placeholder="Enter age" required>
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="gender-homme">
+                    <input id="gender-homme" type="radio" name="gender" value="male" required> Male
+                </label>
+                <label for="gender-homme">
+                    <input id="gender-femme" type="radio" name="gender" value="female" required> Female
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Profession</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="profession">
+                    <input id="profession" type="text" placeholder="Enter profession" required>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="address">
+                    <textarea id="address" type="text" placeholder="Enter address" required></textarea>
+                </label>
+            </td>
+        </tr>
+        <td>State</td>
+        <td>
+            :
+        </td>
+        <td>
+            <select name="dropdown">
+                <option value="Kashmir">Kashmir</option>
+                <option value="Punjab" selected>Punjab</option>
+                <option value="Himachal">Himachal</option>
+            </select>
+
+        </td>
+        </tr>
+        <tr>
+            <td>Annual Income</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="annual income">
+                    <input id="annual income" type="text" placeholder="Enter annual income" required>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td>
+                :
+            </td>
+            <td>
+                <label for="photo">
+                    <input id="photo" type="file" accept="image/jpeg,image/png" required>
+                </label>
+            </td>
+        </tr>
+        <tr>
+        <tr>
+            <td colspan="3">
+                <label for="submit">
+                    <input id="submit" type="submit">
+                </label>
+                <label for="reset">
+                    <input id="reset" type="reset">
+                </label>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+body
+{
+    background-color: silver;
+}
+.navbar
+{
+    float:right;
+    color: aqua;
+    background-color: rgb(31, 9, 37);
+}
+a:hover
+{
+    background-color: aqua;
+}
+header
+{
+    background-color: rgb(31, 9, 37);
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+.bheader
+{
+    text-align: center;
+}
+#movingtxt
+{
+    text-align: center;
+    border-radius:25px;
+}
+.hometab
+{
+    width: 100%;
+    height: 750px;
+}
+.midup
+{
+    width: 750px;
+    height: fit-content;
+    border-radius:25px;
+}
+.mid
+{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 600px;
+    width: 750px;
+    border-radius:25px;
+    
+}
+.right
+{
+    text-align: center;
+    border-radius: 2%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left
+{
+    text-align: center;
+    border-radius:25px;
+    width: 100%;
+    background-color: rgb(163, 157, 157);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 500px;
+}
+.about
+{
+    float:right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-con
+{
+    display: none;
+  position: absolute;
+  background-color: #008080;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-con a
+{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-con a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-con {display: block;}
+
+.dropdown:hover .about {background-color: #3e8e41;}
+
+.feedback
+{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.eacess
+{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.contact
+{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+.home
+{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+.regtab
+{
+    border-style: solid;
+    border-radius: 2%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+    margin-bottom: auto;
+}
